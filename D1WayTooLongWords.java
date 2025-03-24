@@ -23,5 +23,8 @@ public class D1WayTooLongWords{
                 System.out.println(words[i]);
             }
         }
+
+        
+
     }
 }
