@@ -1,7 +1,6 @@
-import java.util.HashMap;
-import java.util.Scanner;
 import java.util.*;
-
+// A. Doremy's Paint 3
+// https://codeforces.com/problemset/problem/1890/A
 public class DoremysPaint3 {
     public static void main(String[] args) {
         
