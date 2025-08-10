@@ -1,6 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
-
+// B. Queue at the School
+// 
 public class QueueattheSchool {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
