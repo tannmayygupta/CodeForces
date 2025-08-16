@@ -1,6 +1,7 @@
 import java.util.HashMap;
 import java.util.Scanner;
-
+// https://codeforces.com/contest/977/problem/B
+// B. Two-gram
 public class Twogram{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
