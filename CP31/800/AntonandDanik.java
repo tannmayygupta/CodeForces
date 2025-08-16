@@ -1,6 +1,8 @@
 import java.util.Scanner;
 // A. Anton and Danik
 // https://codeforces.com/contest/734/problem/A
+
+
 public class AntonandDanik {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
