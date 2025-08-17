@@ -47,11 +47,6 @@ public class DistinctSplit {
                     char ch = s.charAt(i);
                     int c = ch - 'a' ;
 
-                    // if(arr[c] == true && ind == 0){
-                    //     ind = 1 ;
-                    //     ans++;
-                    // }
-
                     if(arr[c] == false){
                         arr[c] = true ;
                         ans++;
