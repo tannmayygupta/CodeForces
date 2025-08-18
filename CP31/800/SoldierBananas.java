@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class SoldierBananas {
     // A. Soldier and Bananas
     // https://codeforces.com/contest/546/problem/A
