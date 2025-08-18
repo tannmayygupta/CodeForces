@@ -1,4 +1,6 @@
 import java.util.Scanner;
+// B. Following Directions
+// https://codeforces.com/contest/1791/problem/B
 
 public class FollowingDirections {
     public static void main(String[] args) {
