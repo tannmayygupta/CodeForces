@@ -1,4 +1,6 @@
 import java.util.Scanner;
+// A. Codeforces Checking
+// 
 
 public class CodeforcesChecking {
     public static void main(String[] args) {
@@ -24,7 +26,7 @@ public class CodeforcesChecking {
             }else{
                 System.out.println("No");
             }
-            
+
             t--;
         }
     }
