@@ -1,5 +1,6 @@
 import java.util.Scanner;
-
+// B. Drinks
+// https://codeforces.com/contest/200/problem/B
 public class Drinks {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
