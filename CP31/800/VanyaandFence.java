@@ -1,4 +1,6 @@
 import java.util.Scanner;
+// A. Vanya and Fence
+// https://codeforces.com/contest/677/problem/A
 
 public class VanyaandFence {
     public static void main(String[] args) {
@@ -21,6 +23,6 @@ public class VanyaandFence {
         }
 
         System.out.println(ans);
-        
+
     }
 }
