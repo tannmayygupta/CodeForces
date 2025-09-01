@@ -1,5 +1,6 @@
 import java.util.Scanner;
-
+// https://codeforces.com/contest/469/problem/A
+// A. I Wanna Be the Guy
 public class IWannaBetheGuy {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
