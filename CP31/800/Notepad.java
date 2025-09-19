@@ -48,7 +48,65 @@
 // }
 
 // method 2 approach 
- 
+
+// import java.util.*;
+
+// public class Notepad {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         int t = sc.nextInt();
+
+//         while (t != 0) {
+
+//             int n = sc.nextInt();
+
+//             String s = sc.next();
+
+//             if(n == 1){
+//                 System.out.println("NO");
+//                 continue ;
+//             }
+
+//             HashSet<String> ans = new HashSet<>();
+
+//             int flag = 0;
+
+//             for (int i = 0; i < n - 1; i++) {
+
+//                 String s1 = s.substring(i, i + 2);
+
+//                 if (i == n - 2) {
+//                     if (ans.contains(s1)) {
+//                         continue;
+//                     }
+//                 } else {
+//                     if (ans.contains(s1)) {
+//                         flag = 1;
+//                         break;
+//                     }else{
+//                         ans.add(s1);
+//                     }
+//                 }
+//             }
+
+//             if (flag == 1) {
+//                 System.out.println("YES");
+//             } else {
+//                 System.out.println("NO");
+//             }
+
+//             t--;
+//         }
+//     }
+// }
+
+
+
+// method 3 in above method the logic is correct but for cases like 
+// momo , aaa  the concept of checking that the substring of lenth 2 dont overlap
+
+
 import java.util.*;
 
 public class Notepad {
@@ -57,7 +115,7 @@ public class Notepad {
 
         int t = sc.nextInt();
 
-        while (t != 0) {
+        while (t-- > 0) {
 
             int n = sc.nextInt();
 
@@ -68,7 +126,7 @@ public class Notepad {
                 continue ;
             }
 
-            HashSet<String> ans = new HashSet<>();
+            HashMap<String , Integer > ans = new HashMap<>();
 
             int flag = 0;
 
@@ -76,17 +134,15 @@ public class Notepad {
 
                 String s1 = s.substring(i, i + 2);
 
-                if (i == n - 2) {
-                    if (ans.contains(s1)) {
-                        continue;
-                    }
-                } else {
-                    if (ans.contains(s1)) {
-                        flag = 1;
+                if(ans.containsKey(s1)){
+                    int prev = ans.get(s1);
+
+                    if(i - prev >= 2){ // main checking for aaa 
+                        flag = 1 ;
                         break;
-                    }else{
-                        ans.add(s1);
                     }
+                }else{
+                    ans.put(s1, i);
                 }
             }
 
@@ -95,8 +151,7 @@ public class Notepad {
             } else {
                 System.out.println("NO");
             }
-
-            t--;
+            
         }
     }
 }
