@@ -1,5 +1,6 @@
 import java.util.Scanner;
-
+// A. Ultra-Fast Mathematician
+//https://codeforces.com/contest/61/problem/A
 public class UltraFastMathematician {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
