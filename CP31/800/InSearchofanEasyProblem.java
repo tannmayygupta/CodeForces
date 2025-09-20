@@ -1,5 +1,6 @@
 import java.util.Scanner;
-
+// https://codeforces.com/contest/1702/problem/D
+// A. In Search of an Easy Problem
 public class InSearchofanEasyProblem {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
