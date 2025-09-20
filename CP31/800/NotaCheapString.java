@@ -1,4 +1,6 @@
 import java.util.Scanner;
+// D. Not a Cheap String
+// https://codeforces.com/contest/1702/problem/D
 
 public class NotaCheapString {
     public static void main(String[] args) {
