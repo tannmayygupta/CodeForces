@@ -1,5 +1,6 @@
 import java.util.Scanner;
-
+// https://codeforces.com/contest/486/problem/A
+// A. Calculating Function
 public class CalculatingFunction {
     public static void main(String[] args) {
 
