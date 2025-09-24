@@ -1,5 +1,6 @@
 import java.util.Scanner;
-
+// A. Arrival of the General
+// https://codeforces.com/problemset/problem/144/A 
 public class ArrivaloftheGeneral {
     public static void main(String[] args) {
         
