@@ -1,5 +1,6 @@
 import java.util.Scanner;
-
+// https://codeforces.com/contest/318/problem/A
+// A. Even Odds
 public class EvenOdds {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
