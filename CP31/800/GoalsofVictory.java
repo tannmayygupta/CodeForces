@@ -1,4 +1,7 @@
 import java.util.Scanner;
+// https://codeforces.com/problemset/problem/1877/A
+
+// A. Goals of Victory
 
 public class GoalsofVictory {
     public static void main(String[] args) {
