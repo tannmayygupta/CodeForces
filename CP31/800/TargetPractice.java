@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+// A. Target Practice
+// https://codeforces.com/problemset/problem/1873/C
+
 public class TargetPractice {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
