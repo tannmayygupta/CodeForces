@@ -1,5 +1,6 @@
 // package contest.1062Div4;
-
+// https://codeforces.com/contest/2167/problem/A
+// A. Square?
 import java.util.*;
 
 public class Square {
