@@ -1,5 +1,8 @@
 // package contest.1062DIv4;
+// https://codeforces.com/contest/2167/problem/C
+//
 
+// C. Isamatdin and His Magic Wand!
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -11,7 +14,7 @@ public class IsamatdinandHisMagicWand {
         int t = sc.nextInt();
 
         while(t--!= 0){
-            
+
             int n = sc.nextInt();
             int[] arr = new int[n];
 
