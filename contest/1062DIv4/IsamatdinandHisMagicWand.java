@@ -13,7 +13,7 @@ public class IsamatdinandHisMagicWand {
         
         int t = sc.nextInt();
 
-        while(t--!= 0){
+        while(t-- != 0){
 
             int n = sc.nextInt();
             int[] arr = new int[n];
@@ -28,7 +28,6 @@ public class IsamatdinandHisMagicWand {
             int Odd =  0; 
 
             for(int i = 0; i < n; i++){
-                arr[i] = sc.nextInt();
                 if(arr[i] % 2 == 0) {
                     Even = 1;
                 }
