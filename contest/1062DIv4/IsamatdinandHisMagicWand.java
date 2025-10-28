@@ -1,5 +1,6 @@
 // package contest.1062DIv4;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class IsamatdinandHisMagicWand {
@@ -10,6 +11,7 @@ public class IsamatdinandHisMagicWand {
         int t = sc.nextInt();
 
         while(t--!= 0){
+            
             int n = sc.nextInt();
             int[] arr = new int[n];
 
@@ -17,17 +19,23 @@ public class IsamatdinandHisMagicWand {
                 arr[i] = sc.nextInt();
             }
 
-            for(int i = 0 ; i < n; i++){
-                for(int j = i + 1 ; j < n ; j++){
+            // swap wala logic gives TLE
 
-                    if( ( (arr[i] % 2) != (arr[j] % 2) ) && arr[i] > arr[j]){
-                        // swap ;
-                        int temp = arr[i];
-                        arr[i] = arr[j];
-                        arr[j] = temp ; 
-                    }
+            int Even = 0 ;
+            int Odd =  0; 
 
+            for(int i = 0; i < n; i++){
+                arr[i] = sc.nextInt();
+                if(arr[i] % 2 == 0) {
+                    Even = 1;
                 }
+                else{
+                    Odd = 1;
+                }
+            }
+            
+            if(Even == 1 && Odd == 1){
+                Arrays.sort(arr);
             }
 
             for(int i = 0; i < n; i++){
