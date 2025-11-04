@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+// C. Vasilije in Cacak
+
+// 
+
 public class VasilijeinCacak {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -15,10 +19,10 @@ public class VasilijeinCacak {
             long x = sc.nextLong();
 
 
-            long min_sum = sumcal(k, 1);
+            long min_sum = k * (k + 1) / 2 ;
 
 
-            long max_sum = sumcal(k, n - k + 1);
+            long max_sum = ( n * (n + 1) / 2 ) - ( (n - k)* (n - k + 1) / 2 ) ; 
 
             // System.out.println(max_sum);
 
