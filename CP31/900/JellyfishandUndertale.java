@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+// A. Jellyfish and Undertale
+// https://codeforces.com/problemset/problem/1875/A
+
 public class JellyfishandUndertale {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
