@@ -1,5 +1,7 @@
 import java.util.Scanner;
+// A. Make It Zero
 
+// https://codeforces.com/problemset/problem/1869/A
 public class MakeItZero {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
