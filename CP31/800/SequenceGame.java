@@ -44,6 +44,7 @@ public class SequenceGame {
                     System.out.print(" ");
                 }
             }
+            System.out.println();
         }
     }
 }
