@@ -1,6 +1,7 @@
 import java.util.Scanner;
 // https://codeforces.com/problemset/problem/1858/A
 // Buttons
+
 public class Buttons {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
