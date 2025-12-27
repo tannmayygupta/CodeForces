@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ArrayColoring {
     // A. Array Coloring
+    // https://codeforces.com/problemset/problem/1857/A
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
