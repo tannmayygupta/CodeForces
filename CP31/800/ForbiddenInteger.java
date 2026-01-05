@@ -1,5 +1,7 @@
 import java.util.Scanner;
+// Forbidden Integer
 
+// https://codeforces.com/problemset/problem/1845/A
 public class ForbiddenInteger {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
