@@ -1,5 +1,6 @@
 import java.util.Scanner;
-
+// A. Grasshopper on a Line
+// https://codeforces.com/contest/1837/problem/A
 public class GrasshopperonaLine {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
