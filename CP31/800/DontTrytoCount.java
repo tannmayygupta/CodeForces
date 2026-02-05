@@ -5,7 +5,8 @@ public class DontTrytoCount {
         Scanner sc = new Scanner(System.in);
 
         int t = sc.nextInt();
-
+        // A. Don't Try to Count
+        // https://codeforces.com/problemset/problem/1881/A
         // 12
         // 1 5
         // a
