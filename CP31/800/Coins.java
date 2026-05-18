@@ -1,5 +1,6 @@
 import java.util.Scanner;
-
+// https://codeforces.com/problemset/problem/1814/A
+// A. Coins
 public class Coins {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
