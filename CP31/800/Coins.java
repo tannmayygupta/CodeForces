@@ -4,10 +4,10 @@ import java.util.Scanner;
 public class Coins {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int t = sc.nextInt();
+        long t = sc.nextLong();
         while (t-- != 0) {
-            int n = sc.nextInt();
-            int k = sc.nextInt();
+            long n = sc.nextLong();
+            long k = sc.nextLong();
             // 2*x = n - k*y 
             // lhs = rhs
             if(n % 2 == 0 || (n - k) % 2 == 0){
