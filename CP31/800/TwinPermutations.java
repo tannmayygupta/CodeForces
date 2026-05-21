@@ -1,5 +1,6 @@
 import java.util.Scanner;
-
+// A. Twin Permutations
+// https://codeforces.com/problemset/problem/1831/A
 public class TwinPermutations {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
