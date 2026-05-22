@@ -1,5 +1,6 @@
 import java.util.Scanner;
-
+// A. Walking Master
+// https://codeforces.com/problemset/problem/1806/A
 public class WalkingMaster {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -36,7 +37,7 @@ public class WalkingMaster {
                 System.out.println(ans);
             }
 
-            
+
         }
     }
 }
