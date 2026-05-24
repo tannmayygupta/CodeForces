@@ -1,5 +1,6 @@
 import java.util.Scanner;
-
+// C. Prepend and Append
+// https://codeforces.com/problemset/problem/1791/C
 public class PrependandAppend {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
