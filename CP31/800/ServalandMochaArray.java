@@ -1,5 +1,6 @@
 import java.util.Scanner;
-
+// A. Serval and Mocha's Array
+// https://codeforces.com/problemset/problem/1789/A
 public class ServalandMochaArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
