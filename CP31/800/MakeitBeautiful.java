@@ -1,5 +1,6 @@
 import java.util.Scanner;
-
+// A. Make it Beautiful
+// https://codeforces.com/problemset/problem/1783/A
 public class MakeitBeautiful {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
