@@ -1,5 +1,6 @@
 import java.util.Scanner;
-
+// A. Everybody Likes Good Arrays!
+// https://codeforces.com/problemset/problem/1777/A
 public class EverybodyLikesGoodArrays {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
